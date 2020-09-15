@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todot</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link href="todo.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div id="todoContainer">
+        <h1 id="todoH1">
+            To-Do List  
+            <i id="todoDownload" class="fas fa-arrow-circle-down todoH1Icons"></i> 
+            <i id="todoHideInput" class="fa fa-plus todoH1Icons"></i>
+            
+        </h1>
+        <input type="text" id="todoInput" placeholder="Add New To-Do + Enter">
+        <ul id="todoUl">
+            <li class="todoLi">
+                <span class="todoDelete"> <i class="fa fa-trash"></i> </span>
+                 Click to mark completed
+            </li>
+            <li class="todoLi">
+                <span class="todoDelete"> <i class="fa fa-trash"></i> </span>
+                 Hover for delete option
+            </li>
+            <li class="todoLi">
+                <span class="todoDelete"> <i class="fa fa-trash"></i> </span>
+                 Download to pdf and get some stuff done!
+            </li>
+        </ul>
+    </div>
+    <script src="todo.js"></script>
+</body>
+</html>
